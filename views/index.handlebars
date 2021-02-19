@@ -20,7 +20,12 @@
 			<h1>Michael Bernstein</h1>
 			<p>human-computer interaction &middot; social computing &middot; crowdsourcing</p>
 		</div>
-
+		{{#if viewAlt}}
+			You should sign up for Intro to introHCI
+			NOW!!!
+		{{else}}
+			Sign up for Intro to HCI.
+		{{/if}}
 		<h4>Projects</h4>
 		{{#each projects}}
 			<div class="project" id="{{id}}">
